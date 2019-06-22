@@ -1,0 +1,6 @@
+framework module Pods_tv_zaichkinTests {
+  umbrella header "Pods-tv-zaichkinTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
