@@ -13,6 +13,10 @@
 		10FD51C022BE0888008FD15B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10FD51BF22BE0888008FD15B /* Assets.xcassets */; };
 		10FD51CB22BE0888008FD15B /* tv_zaichkinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10FD51CA22BE0888008FD15B /* tv_zaichkinTests.swift */; };
 		10FD51D622BE0888008FD15B /* tv_zaichkinUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10FD51D522BE0888008FD15B /* tv_zaichkinUITests.swift */; };
+		10FD51E422BE1B4B008FD15B /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10FD51E322BE1B4B008FD15B /* MapViewController.swift */; };
+		4A771A97009B5D56752C9561 /* Pods_tv_zaichkinTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0062F27BE1AF2C871E2C9CCD /* Pods_tv_zaichkinTests.framework */; };
+		59E7653803B5971A3462D532 /* Pods_tv_zaichkinUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 252A78CDB156CCCACFCB2D06 /* Pods_tv_zaichkinUITests.framework */; };
+		6CFE6D9809965A7DFCC133EA /* Pods_tv_zaichkin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFDE32189C6EEAEDF613D434 /* Pods_tv_zaichkin.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0062F27BE1AF2C871E2C9CCD /* Pods_tv_zaichkinTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tv_zaichkinTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CD77866C3E4762B741DD52B /* Pods-tv-zaichkin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tv-zaichkin.release.xcconfig"; path = "Target Support Files/Pods-tv-zaichkin/Pods-tv-zaichkin.release.xcconfig"; sourceTree = "<group>"; };
 		10FD51B522BE0887008FD15B /* tv-zaichkin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tv-zaichkin.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		10FD51B822BE0887008FD15B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		10FD51BA22BE0887008FD15B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -45,6 +51,14 @@
 		10FD51D122BE0888008FD15B /* tv-zaichkinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tv-zaichkinUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		10FD51D522BE0888008FD15B /* tv_zaichkinUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tv_zaichkinUITests.swift; sourceTree = "<group>"; };
 		10FD51D722BE0888008FD15B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10FD51E322BE1B4B008FD15B /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		252A78CDB156CCCACFCB2D06 /* Pods_tv_zaichkinUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tv_zaichkinUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E2878C40F0E649DE073957C /* Pods-tv-zaichkinUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tv-zaichkinUITests.debug.xcconfig"; path = "Target Support Files/Pods-tv-zaichkinUITests/Pods-tv-zaichkinUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5B4E59B091E95D36825492E8 /* Pods-tv-zaichkin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tv-zaichkin.debug.xcconfig"; path = "Target Support Files/Pods-tv-zaichkin/Pods-tv-zaichkin.debug.xcconfig"; sourceTree = "<group>"; };
+		A0EE191BFDA1675C229D6AD3 /* Pods-tv-zaichkinTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tv-zaichkinTests.release.xcconfig"; path = "Target Support Files/Pods-tv-zaichkinTests/Pods-tv-zaichkinTests.release.xcconfig"; sourceTree = "<group>"; };
+		E296744AA0FEBBA57495D72E /* Pods-tv-zaichkinUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tv-zaichkinUITests.release.xcconfig"; path = "Target Support Files/Pods-tv-zaichkinUITests/Pods-tv-zaichkinUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FF218C22DACAFA93E21A5E2E /* Pods-tv-zaichkinTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tv-zaichkinTests.debug.xcconfig"; path = "Target Support Files/Pods-tv-zaichkinTests/Pods-tv-zaichkinTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FFDE32189C6EEAEDF613D434 /* Pods_tv_zaichkin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tv_zaichkin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6CFE6D9809965A7DFCC133EA /* Pods_tv_zaichkin.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A771A97009B5D56752C9561 /* Pods_tv_zaichkinTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59E7653803B5971A3462D532 /* Pods_tv_zaichkinUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +96,8 @@
 				10FD51C922BE0888008FD15B /* tv-zaichkinTests */,
 				10FD51D422BE0888008FD15B /* tv-zaichkinUITests */,
 				10FD51B622BE0887008FD15B /* Products */,
+				D312E5D972E3F205B65EA49C /* Pods */,
+				6EE60E04BDB5B1E9AA8BC93C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,6 +117,7 @@
 				10FD51B822BE0887008FD15B /* AppDelegate.swift */,
 				10FD51BA22BE0887008FD15B /* ViewController.swift */,
 				10FD51BC22BE0887008FD15B /* Main.storyboard */,
+				10FD51E322BE1B4B008FD15B /* MapViewController.swift */,
 				10FD51BF22BE0888008FD15B /* Assets.xcassets */,
 				10FD51C122BE0888008FD15B /* Info.plist */,
 			);
@@ -122,6 +142,30 @@
 			path = "tv-zaichkinUITests";
 			sourceTree = "<group>";
 		};
+		6EE60E04BDB5B1E9AA8BC93C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FFDE32189C6EEAEDF613D434 /* Pods_tv_zaichkin.framework */,
+				0062F27BE1AF2C871E2C9CCD /* Pods_tv_zaichkinTests.framework */,
+				252A78CDB156CCCACFCB2D06 /* Pods_tv_zaichkinUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D312E5D972E3F205B65EA49C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5B4E59B091E95D36825492E8 /* Pods-tv-zaichkin.debug.xcconfig */,
+				0CD77866C3E4762B741DD52B /* Pods-tv-zaichkin.release.xcconfig */,
+				FF218C22DACAFA93E21A5E2E /* Pods-tv-zaichkinTests.debug.xcconfig */,
+				A0EE191BFDA1675C229D6AD3 /* Pods-tv-zaichkinTests.release.xcconfig */,
+				4E2878C40F0E649DE073957C /* Pods-tv-zaichkinUITests.debug.xcconfig */,
+				E296744AA0FEBBA57495D72E /* Pods-tv-zaichkinUITests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -129,9 +173,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 10FD51DA22BE0888008FD15B /* Build configuration list for PBXNativeTarget "tv-zaichkin" */;
 			buildPhases = (
+				F1052DD73ABC6A49A84C5ECE /* [CP] Check Pods Manifest.lock */,
 				10FD51B122BE0887008FD15B /* Sources */,
 				10FD51B222BE0887008FD15B /* Frameworks */,
 				10FD51B322BE0887008FD15B /* Resources */,
+				32B88992D28BCE576515E58A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -146,6 +192,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 10FD51DD22BE0888008FD15B /* Build configuration list for PBXNativeTarget "tv-zaichkinTests" */;
 			buildPhases = (
+				BF82F9997D8A2D7D6CD30FE7 /* [CP] Check Pods Manifest.lock */,
 				10FD51C222BE0888008FD15B /* Sources */,
 				10FD51C322BE0888008FD15B /* Frameworks */,
 				10FD51C422BE0888008FD15B /* Resources */,
@@ -164,6 +211,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 10FD51E022BE0888008FD15B /* Build configuration list for PBXNativeTarget "tv-zaichkinUITests" */;
 			buildPhases = (
+				815CB1F6CB8C5E1F82C0FEC0 /* [CP] Check Pods Manifest.lock */,
 				10FD51CD22BE0888008FD15B /* Sources */,
 				10FD51CE22BE0888008FD15B /* Frameworks */,
 				10FD51CF22BE0888008FD15B /* Resources */,
@@ -247,12 +295,99 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		32B88992D28BCE576515E58A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-tv-zaichkin/Pods-tv-zaichkin-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-tv-zaichkin/Pods-tv-zaichkin-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-tv-zaichkin/Pods-tv-zaichkin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		815CB1F6CB8C5E1F82C0FEC0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-tv-zaichkinUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF82F9997D8A2D7D6CD30FE7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-tv-zaichkinTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1052DD73ABC6A49A84C5ECE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-tv-zaichkin-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		10FD51B122BE0887008FD15B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				10FD51BB22BE0887008FD15B /* ViewController.swift in Sources */,
+				10FD51E422BE1B4B008FD15B /* MapViewController.swift in Sources */,
 				10FD51B922BE0887008FD15B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,6 +551,7 @@
 		};
 		10FD51DB22BE0888008FD15B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B4E59B091E95D36825492E8 /* Pods-tv-zaichkin.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -434,6 +570,7 @@
 		};
 		10FD51DC22BE0888008FD15B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CD77866C3E4762B741DD52B /* Pods-tv-zaichkin.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -452,6 +589,7 @@
 		};
 		10FD51DE22BE0888008FD15B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF218C22DACAFA93E21A5E2E /* Pods-tv-zaichkinTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -472,6 +610,7 @@
 		};
 		10FD51DF22BE0888008FD15B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0EE191BFDA1675C229D6AD3 /* Pods-tv-zaichkinTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -492,6 +631,7 @@
 		};
 		10FD51E122BE0888008FD15B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E2878C40F0E649DE073957C /* Pods-tv-zaichkinUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -511,6 +651,7 @@
 		};
 		10FD51E222BE0888008FD15B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E296744AA0FEBBA57495D72E /* Pods-tv-zaichkinUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
